@@ -97,7 +97,7 @@ class MaxHeap {
         maxHeap.remove(size() - 1);
         // 从顶至底堆化
         siftDown(0);
-        // 返回堆顶元素
+        // 返回堆顶元素 
         return rootVal;
     }
 
